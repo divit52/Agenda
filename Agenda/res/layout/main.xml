@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" >
+
+        <Button
+            android:id="@+id/button1"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginRight="62dp"
+            android:layout_marginTop="92dp"
+            android:text="Classes" />
+
+        <Button
+            android:id="@+id/button2"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:layout_alignBaseline="@+id/button1"
+            android:layout_alignBottom="@+id/button1"
+            android:layout_alignParentLeft="true"
+            android:layout_marginLeft="34dp"
+            android:text="Homework" />
+
+        <Button
+            android:id="@+id/button3"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/button2"
+            android:layout_alignParentBottom="true"
+            android:layout_marginBottom="112dp"
+            android:text="Gpa Calc" />
+
+        <Button
+            android:id="@+id/button4"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:layout_alignBaseline="@+id/button3"
+            android:layout_alignBottom="@+id/button3"
+            android:layout_alignLeft="@+id/button1"
+            android:text="Calendar" />
+
+    </RelativeLayout>
+
+</LinearLayout>

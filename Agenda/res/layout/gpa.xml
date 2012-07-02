@@ -1,0 +1,184 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" >
+
+        <TextView
+            android:id="@+id/textLabel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginLeft="23dp"
+            android:layout_marginTop="23dp"
+            android:text="Classes"
+            android:textSize="25dp" />
+
+        <TextView
+            android:id="@+id/textClass1"
+            android:layout_width="215dp"
+            android:layout_height="45dp"
+            android:layout_alignParentLeft="true"
+            android:layout_below="@+id/textLabel"
+            android:layout_marginTop="22dp"
+            android:ems="10"
+            android:hint="Enter class here"
+            android:textSize="25dp" />
+
+        <TextView
+            android:id="@+id/textClass01"
+            android:layout_width="215dp"
+            android:layout_height="45dp"
+            android:layout_alignParentLeft="true"
+            android:layout_below="@+id/textClass1"
+            android:ems="10"
+            android:hint="Enter class here"
+            android:textSize="25dp" />
+
+        <TextView
+            android:id="@+id/textClass02"
+            android:layout_width="215dp"
+            android:layout_height="45dp"
+            android:layout_alignParentLeft="true"
+            android:layout_below="@+id/textClass01"
+            android:ems="10"
+            android:hint="Enter class here"
+            android:textSize="25dp" />
+
+        <TextView
+            android:id="@+id/textClass03"
+            android:layout_width="215dp"
+            android:layout_height="45dp"
+            android:layout_alignParentLeft="true"
+            android:layout_below="@+id/textClass02"
+            android:ems="10"
+            android:hint="Enter class here"
+            android:textSize="25dp" />
+
+        <TextView
+            android:id="@+id/textClass04"
+            android:layout_width="215dp"
+            android:layout_height="45dp"
+            android:layout_alignParentLeft="true"
+            android:layout_below="@+id/textClass03"
+            android:ems="10"
+            android:hint="Enter class here"
+            android:textSize="25dp" />
+
+        <TextView
+            android:id="@+id/textClass05"
+            android:layout_width="215dp"
+            android:layout_height="45dp"
+            android:layout_alignParentLeft="true"
+            android:layout_below="@+id/textClass04"
+            android:ems="10"
+            android:hint="Enter class here"
+            android:textSize="25dp" />
+
+        <EditText
+            android:id="@+id/textClass08"
+            android:layout_width="85dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_below="@+id/textClass02"
+            android:ems="10"
+            android:hint="0"
+            android:inputType="number" />
+
+        <EditText
+            android:id="@+id/textClass07"
+            android:layout_width="85dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_alignTop="@+id/textClass02"
+            android:ems="10"
+            android:hint="0"
+            android:inputType="number" />
+
+        <EditText
+            android:id="@+id/textClass06"
+            android:layout_width="85dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_below="@+id/textClass1"
+            android:ems="10"
+            android:hint="0"
+            android:inputType="number" />
+
+        <EditText
+            android:id="@+id/textClassSpec"
+            android:layout_width="85dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_alignTop="@+id/textClass1"
+            android:ems="10"
+            android:hint="0"
+            android:inputType="number" />
+
+        <EditText
+            android:id="@+id/textClass09"
+            android:layout_width="85dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_alignTop="@+id/textClass04"
+            android:ems="10"
+            android:hint="0"
+            android:inputType="number" />
+
+        <TextView
+            android:id="@+id/textView1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBaseline="@+id/textLabel"
+            android:layout_alignBottom="@+id/textLabel"
+            android:layout_alignLeft="@+id/textClassSpec"
+            android:text="Grade"
+            android:textSize="25dp" />
+
+        <EditText
+            android:id="@+id/textClass10"
+            android:layout_width="85dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_below="@+id/textClass04"
+            android:ems="10"
+            android:hint="0"
+            android:inputType="number" />
+
+        <Button
+            android:id="@+id/buttonSave"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_below="@+id/textClass10"
+            android:layout_marginTop="16dp"
+            android:text="Save" />
+
+        <TextView
+            android:id="@+id/textgpa"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/textLabel"
+            android:layout_alignParentBottom="true"
+            android:layout_marginBottom="19dp"
+            android:text="GPA: "
+            android:textSize="25dp" />
+
+        <TextView
+            android:id="@+id/textView4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBaseline="@+id/textgpa"
+            android:layout_alignBottom="@+id/textgpa"
+            android:layout_alignLeft="@+id/textClass10"
+            android:text="0.00"
+            android:textSize="25dp" />
+
+    </RelativeLayout>
+
+</LinearLayout>

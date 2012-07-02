@@ -1,0 +1,181 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" >
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginLeft="23dp"
+            android:layout_marginTop="23dp"
+            android:text="Classes"
+            android:textSize="25dp" />
+
+        <EditText
+            android:id="@+id/editText1"
+            android:layout_width="215dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_below="@+id/textView2"
+            android:layout_marginTop="22dp"
+            android:ems="10"
+            android:hint="Enter class here" />
+
+        <EditText
+            android:id="@+id/editText2"
+            android:layout_width="85dp"
+            android:layout_height="wrap_content"
+            android:layout_alignBaseline="@+id/editText1"
+            android:layout_alignBottom="@+id/editText1"
+            android:layout_alignParentRight="true"
+            android:ems="10"
+            android:hint="0"
+            android:inputType="number" />
+
+        <TextView
+            android:id="@+id/textView1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_above="@+id/editText1"
+            android:layout_alignLeft="@+id/editText2"
+            android:text="Credits"
+            android:textSize="25dp" />
+
+        <EditText
+            android:id="@+id/EditText01"
+            android:layout_width="215dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_below="@+id/editText1"
+            android:ems="10"
+            android:hint="Enter class here" />
+
+        <EditText
+            android:id="@+id/EditText02"
+            android:layout_width="215dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_below="@+id/EditText01"
+            android:ems="10"
+            android:hint="Enter class here" />
+
+        <EditText
+            android:id="@+id/EditText03"
+            android:layout_width="215dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_below="@+id/EditText02"
+            android:ems="10"
+            android:hint="Enter class here" />
+
+        <EditText
+            android:id="@+id/EditText04"
+            android:layout_width="215dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_below="@+id/EditText03"
+            android:ems="10"
+            android:hint="Enter class here" />
+
+        <EditText
+            android:id="@+id/EditText05"
+            android:layout_width="215dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_below="@+id/EditText04"
+            android:ems="10"
+            android:hint="Enter class here" />
+
+        <EditText
+            android:id="@+id/EditText06"
+            android:layout_width="85dp"
+            android:layout_height="wrap_content"
+            android:layout_above="@+id/EditText02"
+            android:layout_alignParentRight="true"
+            android:ems="10"
+            android:hint="0"
+            android:inputType="number" >
+
+            <requestFocus />
+        </EditText>
+
+        <EditText
+            android:id="@+id/EditText07"
+            android:layout_width="85dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_below="@+id/EditText06"
+            android:ems="10"
+            android:hint="0"
+            android:inputType="number" />
+
+        <EditText
+            android:id="@+id/EditText08"
+            android:layout_width="85dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:ems="10"
+            android:hint="0"
+            android:inputType="number" />
+
+        <EditText
+            android:id="@+id/EditText09"
+            android:layout_width="85dp"
+            android:layout_height="wrap_content"
+            android:layout_above="@+id/EditText05"
+            android:layout_alignParentRight="true"
+            android:ems="10"
+            android:hint="0"
+            android:inputType="number" />
+
+        <EditText
+            android:id="@+id/EditText10"
+            android:layout_width="85dp"
+            android:layout_height="wrap_content"
+            android:layout_alignBaseline="@+id/EditText05"
+            android:layout_alignBottom="@+id/EditText05"
+            android:layout_alignParentRight="true"
+            android:ems="10"
+            android:hint="0"
+            android:inputType="number" />
+
+        <Button
+            android:id="@+id/button1"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignRight="@+id/EditText05"
+            android:layout_below="@+id/EditText05"
+            android:text="Save" />
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/textView2"
+            android:layout_below="@+id/button1"
+            android:layout_marginTop="19dp"
+            android:text="Total Credits: "
+            android:textSize="25dp" />
+
+        <TextView
+            android:id="@+id/textView4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBaseline="@+id/textView3"
+            android:layout_alignBottom="@+id/textView3"
+            android:layout_alignLeft="@+id/EditText10"
+            android:text="18"
+            android:textSize="25dp" />
+    </RelativeLayout>
+
+</LinearLayout>
